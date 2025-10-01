@@ -108,7 +108,8 @@ Enter a temperature to convert: -40
 '''
 
 1. What is one lesson you learned in this lab?
-How to allow a user to select an option from a menu
+
+that spaces are very important
 
 
 
