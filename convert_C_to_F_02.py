@@ -108,7 +108,7 @@ Enter a temperature to convert: -40
 '''
 
 1. What is one lesson you learned in this lab?
-Pay very, very close attention to where spaces are.
+#Pay very, very close attention to where spaces are.
 
 
 
