@@ -31,13 +31,13 @@ if choice == 1:
   temp = float(input('Enter a temperature to convert: '))    
   converted = temp * 9/5 + 32
   print('')
-  print(f'{temp} degrees Celsius is {converted} degrees Fahrenheit.')
+  print(f'{temp} degrees Celsius is {converted:.1f} degrees Fahrenheit.')
 
 else:
   temp = float(input('Enter a temperature to convert: '))
   converted = (temp - 32 ) * 5/9
   print('')
-  print(f'{temp} degrees Fahrenheit is {converted} degrees Celsius.')
+  print(f'{temp} degrees Fahrenheit is {converted:.1f} degrees Celsius.')
 
 
 ########### END YER CODE ABOVE THIS LINE ###########
