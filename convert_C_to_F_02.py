@@ -18,7 +18,6 @@
 #c to f = temperature * 9/5 + 32
 #f to c = (temperature - 32 ) * 5/9
 
-print()
 print('===== Temperature Converter =====')
 print('')
 print('  1. Convert from Celsius to Fahrenheit ')
@@ -49,19 +48,6 @@ else:
 ########################################
 #          SAMPLE OUTPUT
 ########################################
-
-'''
-===== Temperature Converter =====
-
-  1. Convert from Celsius to Fahrenheit
-  2. Convert from Fahrenheit to Celsius
-
-Please choose from the above menu: 1
-Enter a temperature to convert: 15
-
-15.0 degrees Celsius is 59.0 degrees Fahrenheit.
-'''
-
 
 '''
 ===== Temperature Converter =====
