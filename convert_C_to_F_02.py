@@ -18,7 +18,7 @@
 #c to f = temperature * 9/5 + 32
 #f to c = (temperature - 32 ) * 5/9
 
-print('')
+print()
 print('===== Temperature Converter =====')
 print('')
 print('  1. Convert from Celsius to Fahrenheit ')
@@ -31,13 +31,13 @@ if choice == 1:
   temp = float(input('Enter a temperature to convert: '))    
   converted = temp * 9/5 + 32
   print('')
-  print(f'{temp} degrees Celsius is {converted:.1f} degrees Fahrenheit.')
+  print(f'{temp} degrees Celsius is {converted} degrees Fahrenheit.')
 
 else:
   temp = float(input('Enter a temperature to convert: '))
   converted = (temp - 32 ) * 5/9
   print('')
-  print(f'{temp} degrees Fahrenheit is {converted:.1f} degrees Celsius.')
+  print(f'{temp} degrees Fahrenheit is {converted} degrees Celsius.')
 
 
 ########### END YER CODE ABOVE THIS LINE ###########
@@ -108,7 +108,7 @@ Enter a temperature to convert: -40
 '''
 
 1. What is one lesson you learned in this lab?
-#Pay very, very close attention to where spaces are.
+How to allow a user to select an option from a menu
 
 
 
