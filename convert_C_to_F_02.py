@@ -27,16 +27,16 @@ print('')
 choice = int(input('Please choose from the above menu: '))
 
 if choice == 1:
-  temp = int(input('Enter a temperature to convert: '))    
+  temp = float(input('Enter a temperature to convert: '))    
   converted = temp * 9/5 + 32
   print('')
-  print(f'{temp} degrees Celsius is {converted} degrees Fahrenheit.')
+  print(f'({temp} degrees Celsius is {converted} degrees Fahrenheit.')
 
 else:
-  temp = int(input('Enter a temperature to convert: '))
+  temp = float(input('Enter a temperature to convert: '))
   convert = (temp - 32 ) * 5/9
   print('')
-  print(f'{temp} degrees Fahrenheit is {convert} degrees Celcius.')
+  print(f'{temp} degrees Fahrenheit is {convert} degrees Celsius.')
 
 
 ########### END YER CODE ABOVE THIS LINE ###########
