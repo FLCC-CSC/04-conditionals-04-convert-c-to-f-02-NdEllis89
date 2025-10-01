@@ -57,6 +57,19 @@ else:
   2. Convert from Fahrenheit to Celsius
 
 Please choose from the above menu: 1
+Enter a temperature to convert: 15
+
+15.0 degrees Celsius is 59.0 degrees Fahrenheit.
+'''
+
+
+'''
+===== Temperature Converter =====
+
+  1. Convert from Celsius to Fahrenheit
+  2. Convert from Fahrenheit to Celsius
+
+Please choose from the above menu: 1
 Enter a temperature to convert: 100
 
 100.0 degrees Celsius is 212.0 degrees Fahrenheit.
