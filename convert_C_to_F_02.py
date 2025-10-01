@@ -1,8 +1,8 @@
 # FILE NAME - convert_C_to_F_02.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Noah Ellis
+# DATE: 10/1/25
+# BRIEF DESCRIPTION: C to F converter with user selection menu  
 
 
 
@@ -15,13 +15,27 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+#c to f = temperature * 9/5 + 32
+#f to c = (temperature - 32 ) * 5/9
 
+print('===== Temperature Converter =====')
+print('')
+print('1. Convert from Celsius to Fahrenheit ')
+print('2. Convert from Fahrenheit to Celsius ')
 
+choice = int(input('Please choose from the above menu: '))
 
+if choice == 1:
+  temp = int(input('Enter a temperature to convert: '))    
+  converted = temp * 9/5 + 32
+  print('')
+  print(f'{temp} degrees Celsius is {converted} degrees Fahrenheit')
 
-
-
-
+else:
+  temp = int(input('Enter a temperature to convert: '))
+  convert = (temp - 32 ) * 5/9
+  print('')
+  print(f'{temp} degrees Fahrenheit is {convert} degrees Celcius.')
 
 
 ########### END YER CODE ABOVE THIS LINE ###########
@@ -92,7 +106,7 @@ Enter a temperature to convert: -40
 '''
 
 1. What is one lesson you learned in this lab?
-
+How to allow a user to select an option from a menu
 
 
 
