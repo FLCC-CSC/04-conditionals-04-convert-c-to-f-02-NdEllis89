@@ -18,6 +18,7 @@
 #c to f = temperature * 9/5 + 32
 #f to c = (temperature - 32 ) * 5/9
 
+print('')
 print('===== Temperature Converter =====')
 print('')
 print(' 1. Convert from Celsius to Fahrenheit ')
@@ -107,7 +108,7 @@ Enter a temperature to convert: -40
 '''
 
 1. What is one lesson you learned in this lab?
-How to allow a user to select an option from a menu
+Pay very, very close attention to where spaces are.
 
 
 
